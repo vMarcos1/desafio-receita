@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    position: relative;
+    height: 100vh;
+    
+    background-color: #F3E5D8;
+
+    font-family: 'outfit';
+    text-align: justify;
+    line-height: 1.5em;
+
+}
+
+.home { 
+    background-color: white;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 20px;
+    width: 650px;
+   
+
+    
+    
+}
+
+.home .imagem {
+    height: 300px;
+
+    background: black url(../images/image-omelette.jpeg) no-repeat center center ;
+    background-size: cover;
+   
+
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.home .titulo {
+    
+    font-family: 'youngserif';
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.home p {
+    font-weight: 300;
+    padding: 10px;
+
+    
+}
+
+.home .preparacao {
+    background-color: #FFF7FC;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    list-style-position: inside;
+}
+
+.home .preparacao .titulo {
+    font-size: 1.1em;
+    color: #844B66;
+}
+
+.home .preparacao ul li {
+    
+    padding: 5px;
+  
+}
+
+.home .preparacao ul li::marker {
+    color: #844B66;
+    
+ 
+  
+}
+
+
+
+.home .subtitulo {
+    color: rgb(119, 33, 33);
+    font-family: 'youngserif';
+    font-size: 1.7em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.247);
+    font-weight: bolder;
+   
+    padding: 10px;
+    
+}
+
+.home .ingredientes {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.home .ingredientes li{
+    padding: 10px;
+    
+}
+
+.home  li::marker {
+    color: rgb(119, 33, 33);
+    font-weight: bold;
+}
+
+.home .instrucoes {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.home .instrucoes li{
+    padding: 10px;
+    
+}
+
+
+.home hr {
+    color: rgba(150, 2, 2, 0.123);
+    width: 95%;
+    margin: 15px;
+}
+
+.home .nutricao  {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.home .nutricao li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+
+hr {
+    border: solid;
+    border-width: 1px ;
+    border-color: #fff5fa;
+    
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+table tr {
+    height: 40px;
+   
+}
+
+table tr td{
+    border-bottom: 1px solid #f5e7ed;
+    width: 300px;
+    padding-left: 30px;
+}
+
+#gorduras {
+    border: 0px;
+}
+
+.valor {
+    color: rgb(119, 33, 33);
+}
+
+.rodape {
+    text-align: center;
+    font-size: 11px;
+}
+

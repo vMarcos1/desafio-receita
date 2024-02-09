@@ -1,0 +1,41 @@
+@media  screen and (max-width: 768px) {
+    .home {
+        width: 90%;
+    }
+
+    .home .titulo {
+        font-size: 1.6em;
+    }
+
+    .home .subtitulo {
+        font-size: 1.3em;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+
+    .home .imagem {
+        border-radius: 0px;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+
+
+    }
+    .home {
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0px;
+    }
+    .home p {
+        padding: 10px;
+        margin: 10px;
+    }
+    .home .subtitulo {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+}
